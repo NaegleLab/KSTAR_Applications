@@ -9,6 +9,6 @@ This is where you can set the GLOBAL Path directory used in examples to point to
 
 """
 
-SUPPLEMENTS_DIR = '/Users/kmn4mj/Box Sync/Manuscripts/2021/KSTAR/'
+SUPPLEMENTS_DIR = '../../data/KSTAR_NETWORKS/KSTAR_July2021/SupplementaryData/'
 
-KINASE_MAP =  pd.read_csv(SUPPLEMENTS_DIR+'Supplements/SupplementaryData/Map/globalKinaseMap.csv', index_col = 0)
+KINASE_MAP =  pd.read_csv(SUPPLEMENTS_DIR+'Map/globalKinaseMap.csv', index_col = 0)
