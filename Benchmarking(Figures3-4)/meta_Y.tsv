@@ -1,0 +1,21 @@
+	Condition	Kinases	Direction	StudyName
+data:Dasatinib_Asmussen	K562 cells treated with dasatinib for 20 minutes	ABL1	Down	
+data:EGF_1min_WY2007	Human mammary epithelial cells stimulated with EGF for 1 minute	EGFR	Up	EGF_WolfYadlin2007
+data:EGF_4min_WY2007	Human mammary epithelial cells stimulated with EGF for 4 minutes	EGFR	Up	EGF_WolfYadlin2007
+data:EGF_8min_WY2007	Human mammary epithelial cells stimulated with EGF for 8 minutes	EGFR	Up	EGF_WolfYadlin2007
+data:EGF_16min_WY2007	Human mammary epithelial cells stimulated with EGF for 16 minutes	EGFR	Up	EGF_WolfYadlin2007
+data:EGF_10min_WY2006	HER2 overexpressing epithelial cells stimulated with EGF for 10 minutes, quantification relative to unstimulated wild type	EGFR	Up	HER2overexpression_WolfYadlin2006
+data:HRG_10min_WY2006	HER2 overexpressing epithelial cells stimulated with HRG for 10 minutes, quantification relative to unstimulated wild type	EGFR,ERBB2	Up	HER2overexpression_WolfYadlin2006
+data:TCRstimulation_5sec_Chylek	TCR stimulation for 5 seconds	LCK,FYN,ZAP70,ITK	Up	TCRstimulation_Chylek
+data:TCRstimulation_15sec_Chylek	TCR stimulation for 15 seconds	LCK,FYN,ZAP70,ITK	Up	TCRstimulation_Chylek
+data:TCRstimulation_30sec_Chylek	TCR stimulation for 30 seconds	LCK,FYN,ZAP70,ITK	Up	TCRstimulation_Chylek
+data:TCRstimulation_60sec_Chylek	TCR stimulation for 60 seconds	LCK,FYN,ZAP70,ITK	Up	TCRstimulation_Chylek
+data:Imatinib_Giansanti	A431 cells treated with imatinib for 2 hours, a TKI inhibitor	CSK,SRC,DDR1	Down	TKIs_Giansanti
+data:Dasatinib_Giansanti	A431 cells treated with dasatinib for 2 hours, a TKI inhibitor	EPHA2,SRC,DDR1,YES1,FRK	Down	TKIs_Giansanti
+data:Bosutinib_Giansanti	A431 cells treated with bosutinib for 2 hours, a TKI inhibitor	EPHA2,EPHB2,FRK,PTK2B,LYN	Down	TKIs_Giansanti
+data:Nilotinib_Giansanti	A431 cells treated with nilotinib for 2 hours, a TKI inhibitor	DDR1,EPHA2,CSK,SRC,PTK2B	Down	TKIs_Giansanti
+data:VEGF_10min_Zhuang	HUVEC cells treated with VEGF for 10 minutes	FLT1,KDR,FLT4	Up	VEGF_Zhuang
+data:VEGF_20min_Zhuang	HUVEC cells treated with VEGF for 20 minutes	FLT1,KDR,FLT4	Up	VEGF_Zhuang
+data:VEGF_30min_Zhuang	HUVEC cells treated with VEGF for 30 minutes	FLT1,KDR,FLT4	Up	VEGF_Zhuang
+data:Dasatinib_5nm_Pan	K562 cells treated with 5nm dasatinib for 1 hour	ABL1	Down	Dasatinib_inhibition_Pan
+data:Dasatinib_50nm_Pan	K562 cells treated with 50nm dasatinib for 1 hour	ABL1	Down	Dasatinib_inhibition_Pan

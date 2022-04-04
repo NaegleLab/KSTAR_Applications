@@ -1,0 +1,32 @@
+	StudyName	Condition	Kinases	Direction
+data:AKT_AZD5363_Wiechmann	AKTinhibition_Wiechmann	BT-474 cells treated with 1uM AZD5363, an AKT inhibitor, for 1 hour	RPS6KB1,AKT1,ROCK2,EIF2AK4,PRKX	Down
+data:AKT_GSK2110183_Wiechmann	AKTinhibition_Wiechmann	BT-474 cells treated with 1uM GSK2110183, an AKT inhibitor, for 1 hour	AKT1,PAK6,CLK1,MARK3,PRKACA	Down
+data:AKT_GSK690693_Wiechmann	AKTinhibition_Wiechmann	BT-474 cells treated with 1uM GSK690693, an AKT inhibitor, for 1 hour	PDPK1,ROCK1,CDC42BPB,AKT1,CDC42BPG	Down
+data:AKT_Ipatasertib_Wiechmann	AKTinhibition_Wiechmann	BT-474 cells treated with 1uM Ipatasertib, an AKT inhibitor, for 1 hour	AKT1,DYRK1A,PRKCH,CLK2,ROCK2	Down
+data:AKT_MK-2206_Wiechmann	AKTinhibition_Wiechmann	BT-474 cells treated with 1uM MK-2206, an AKT inhibitor, for 1 hour	AKT1,AKT2	Down
+data:ATRinhibition_Salovska	ATRinhibition_Salovska	HL60 cells treated with VE-821, an ATR inhibitor, after irradiation	ATR	Down
+data:AURK_MLN8054_0.25uM_Kellenbach	AURK_CellCycleStudy_Kellenbach	HeLa cells arrested in mitosis and treated with 0.25uM MLN8054, a AURK inhibitor which only affects AURKB at high concentrations	AURKA	Down
+data:AURK_MLN8054_1uM_Kellenbach	AURK_CellCycleStudy_Kellenbach	HeLa cells arrested in mitosis and treated with 1uM MLN8054, a AURK inhibitor which only affects AURKB at high concentrations	AURKA	Down
+data:AURK_MLN8054_5uM_Kellenbach	AURK_CellCycleStudy_Kellenbach	HeLa cells arrested in mitosis and treated with 5uM MLN8054, a AURK inhibitor which only affects AURKB at high concentrations	AURKA,AURKB	Down
+data:AURKB_AZD1152_Kellenbach	AURK_CellCycleStudy_Kellenbach	Hela cells arrested in mitosis and treated with AZD1152, a AURKB inhibitor	AURKB	Down
+data:PLK_BI2536_Kellenbach	AURK_CellCycleStudy_Kellenbach	HeLa cells arrested in mitosis and treated with BI2536, a PLK inhibitor	PLK1,PLK2,PLK3	Down
+data:CDK8_19_CortistatinA_Poss	CDK8/19_inhibition_Poss	HCT116 cells treated with cortistatinA, a selective inhibitor for CDK8 and CDK19	CDK8,CDK19	Down
+data:CK2_Quinalizarin_Franchin	CK2_inhibition_Franchin	HEK293T cells treated with quinalizarin, a CK2 inhibitor, for 3 hours	CSNK2A1,CSNK2A2,CSNK2B	Down
+data:EGFstim_5min_Wilkes	EGF_IGF_Wilkes	MCF7 cells stimulated with EGF for 5 minutes	MAPK1,MAPK3,BRAF,RAF1,AKT1,MAP2K1,MAP2K2	Up
+data:EGFstim_10min_Wilkes	EGF_IGF_Wilkes	MCF7 cells stimulated with EGF for 10 minutes	MAPK1,MAPK3,BRAF,RAF1,AKT1,MAP2K1,MAP2K2	Up
+data:EGFstim_30min_Wilkes	EGF_IGF_Wilkes	MCF7 cells stimulated with EGF for 30 minutes	MAPK1,MAPK3,BRAF,RAF1,AKT1,MAP2K1,MAP2K2	Up
+data:EGFstim_60min_Wilkes	EGF_IGF_Wilkes	MCF7 cells stimulated with EGF for 60 minutes	MAPK1,MAPK3,BRAF,RAF1,AKT1,MAP2K1,MAP2K2	Up
+data:IGFstim_5min_Wilkes	EGF_IGF_Wilkes	MCF7 cells stimulated with IGF1 for 5 minutes	MAPK1,MAPK3,BRAF,RAF1,AKT1,MAP2K1,MAP2K2	Up
+data:IGFstim_10min_Wilkes	EGF_IGF_Wilkes	MCF7 cells stimulated with IGF1 for 10 minutes	MAPK1,MAPK3,BRAF,RAF1,AKT1,MAP2K1,MAP2K2	Up
+data:IGFstim_30min_Wilkes	EGF_IGF_Wilkes	MCF7 cells stimulated with IGF1 for 30 minutes	MAPK1,MAPK3,BRAF,RAF1,AKT1,MAP2K1,MAP2K2	Up
+data:IGFstim_60min_Wilkes	EGF_IGF_Wilkes	MCF7 cells stimulated with IGF1 for 60 minutes	MAPK1,MAPK3,BRAF,RAF1,AKT1,MAP2K1,MAP2K2	Up
+data:CDK1_inhib_Flavopiridol_Petrone	CDK1_inhib_Petrone	HeLa cells treated with Flavopiridol, a CDK1 inhibitor	CDK1	Down
+data:CDK1_inhib_RO-3306_Petrone	CDK1_inhib_Petrone	HeLa cells treated with RO-3306, a CDK1 inhibitor	CDK1	Down
+data:EGF_stimulation1_Pan	MEK/p38_inhibition_Pan	HeLa cells treated with EGF	MAPK1,MAPK3,MAP2K1,MAP2K2,BRAF,RAF1,AKT1	Up
+data:MEK_inhibition_U0126_Pan	MEK/p38_inhibition_Pan	HeLa cells treated with U0126, a MEK inhibitor, after EGF stimulation	MAP2K1,MAP2K2,MAPK1,MAPK3	Down
+data:EGF_stimulation2_Pan	MEK/p38_inhibition_Pan	HeLa cells treated with EGF	MAPK1,MAPK3,MAP2K1,MAP2K2,BRAF,RAF1,AKT1	Up
+data:p38_inhibition_SB202190_Pan	MEK/p38_inhibition_Pan	HeLa cells treated with SB202190, a p38 inhibitor, after EGF stimulation	MAPK11,MAPK14	Down
+data:BRAF_inhibition_PLX4032_Stuart	MEK_BRAF_Inhibition_Stuart	WM239A cells treated with PLX4032, a BRAF inhibitor	BRAF,MAPK1,MAPK3	Down
+data:MEK_inhibition_AZD6244_Stuart	MEK_BRAF_Inhibition_Stuart	WM239A cells treated with AZD6244, a MEK1/2 inhibitor	MAP2K1,MAP2K2,MAPK1,MAPK3	Down
+data:DNAdamage_Etoposide_Beli	DNA_damage_Beli	UTOS cells treated with epotoside for 24 hours	ATR,ATM	Up
+data:DNAdamage_IR_Beli	DNA_damage_Beli	UTOS cells treated with ionizing radiation for 1 hour	ATR,ATM	Up
