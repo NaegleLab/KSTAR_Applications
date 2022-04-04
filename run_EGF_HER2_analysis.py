@@ -10,10 +10,10 @@ import conf #applications config for supplementary directory
 
 if __name__ ==  '__main__': #added this to prevent recursive spooling of multiprocessing
 
-	data_dir = conf.SUPPLEMENTS_DIR+'BreastCancer/PDX_Huang2017/'
+	data_dir = conf.SUPPLEMENTS_DIR+'Control_experiments/EGF_184A1_HER2_WolfYadlin2006/'
 
 	odir = './data/predictions/'
-	expName = 'PDX'
+	expName = 'EGF_HER2'
 
 	experiment = pd.read_csv(f"{data_dir}/MAPPED/{expName}_mapped.tsv", sep='\t')
 
@@ -25,11 +25,9 @@ if __name__ ==  '__main__': #added this to prevent recursive spooling of multipr
 	    os.mkdir(f"{odir}/{expName}")
 	activity_log = helpers.get_logger(f"activity_{expName}", f"{odir}/{expName}/activity_{expName}.log")
 
-	data_columns = None # this means default to the column headers marked with data:
+	data_columns = None
 	agg = 'mean' # if a non-NaN value appears at all, use it
-	threshold = 0.0 #require they have increased from basal
-
-	#Run analysis, normalization, and Mann Whitney. 
+	threshold = 0.8 #require they are within 80% of what was seen at the normalized 4' mark
 	#Save the SLIM versions at each step, in case of failure/loss of kernel, etc.
 
 	kinact_dict = calculate.run_kstar_analysis(experiment, activity_log, networks, phospho_types = ['Y'], data_columns = data_columns, agg =agg, threshold = threshold,  greater = True)
