@@ -10,7 +10,7 @@ import conf #applications config for supplementary directory
 
 data_dir = conf.SUPPLEMENTS_DIR+'BreastCancer/PDX_Huang2017/'
 
-odir = './data/predictions/'
+odir = './data/predictions'
 expName = 'PDX'
 
 experiment = pd.read_csv(f"{data_dir}/MAPPED/{expName}_mapped.tsv", sep='\t')
